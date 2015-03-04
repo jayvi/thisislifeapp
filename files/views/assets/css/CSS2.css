@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'reklame';
+    src: url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.eot');
+    src: url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.woff2') format('woff2'),
+         url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.woff') format('woff'),
+         url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.ttf') format('truetype'),
+         url('http://thisislifeapp.com/ReklameScript-Regular_DEMO-webfont.svg#reklame_script_regular_demoRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.ui-bar-a{background:#EF333D !important;}
+.ui-title{font-family: reklame !important;}
+.ui-controlgroup-controls a.ui-shadow:not(:focus) {border: 0;border-radius: 0;}

@@ -1,0 +1,158 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.start_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecollapsibleset_89 */
+.start_mobilecollapsibleset_89 {
+	margin: 8px 0px 8px 0px;
+	display: none;
+}
+.start_mobilecollapsibleset_89 div.ui-collapsible {
+	margin: 0 -15px 0 -15px;
+}
+/* mobilecollapsblock_99 */
+.start_mobilecollapsblock_99 {
+
+}
+.start_mobilecollapsblock_99 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* loginUsername */
+.start_loginUsername {
+	margin: 4px 0px 2px 0px;
+}
+/* loginPassword */
+.start_loginPassword {
+	margin: 2px 0px 2px 0px;
+}
+/* loginButton */
+#start_loginButton {
+
+}
+.ui-btn.start_loginButton {
+	margin: 2px 4px 4px 4px;
+}
+/* mobilecollapsblock_105 */
+.start_mobilecollapsblock_105 {
+
+}
+.start_mobilecollapsblock_105 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* registerUsername */
+.start_registerUsername {
+	margin: 4px 0px 4px 0px;
+}
+/* registerPassword */
+.start_registerPassword {
+	margin: 4px 0px 4px 0px;
+}
+/* registerPasswordC */
+.start_registerPasswordC {
+	margin: 4px 0px 4px 0px;
+}
+/* registerEmail */
+.start_registerEmail {
+	margin: 4px 0px 4px 0px;
+}
+/* registerPhone */
+.start_registerPhone {
+	margin: 4px 0px 4px 0px;
+}
+/* registerFirstname */
+.start_registerFirstname {
+	margin: 4px 0px 4px 0px;
+}
+/* registerLastname */
+.start_registerLastname {
+	margin: 4px 0px 4px 0px;
+}
+/* registerAge */
+.start_registerAge {
+	margin: 4px 0px 4px 0px;
+}
+/* registerSex */
+.start_registerSex {
+	margin: 4px 0px 4px 0px;
+}
+/* registerSexmale */
+.start_registerSexmale {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* registerSexfemale */
+.start_registerSexfemale {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* registerButton */
+#start_registerButton {
+
+}
+.ui-btn.start_registerButton {
+	margin: 2px 5px 4px 5px;
+}
+/* mobilecollapsblock_127 */
+.start_mobilecollapsblock_127 {
+
+}
+.start_mobilecollapsblock_127 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilelabel_132 */
+.start_mobilelabel_132 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* passwordEmail */
+.start_passwordEmail {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_133 */
+#start_mobilebutton_133 {
+
+}
+.ui-btn.start_mobilebutton_133 {
+	margin: 4px 5px 4px 5px;
+}
+/* recovery_container */
+.start_recovery_container {
+	margin: 8px 0px 8px 0px;
+	display: none;
+}
+.start_recovery_container div.ui-collapsible {
+	margin: 0 -15px 0 -15px;
+}
+/* recovery_holder */
+.start_recovery_holder {
+
+}
+.start_recovery_holder .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* recovery_secret_code */
+.start_recovery_secret_code {
+	margin: 4px 0px 4px 0px;
+}
+/* recovery_new_password */
+.start_recovery_new_password {
+	margin: 4px 0px 4px 0px;
+}
+/* recoverNow */
+#start_recoverNow {
+
+}
+.ui-btn.start_recoverNow {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.start_mobilefooter {
+	min-height:38px;
+}

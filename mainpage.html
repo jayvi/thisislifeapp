@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            mainpage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS2.css" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/isjs.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/device.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:400px;" dsid="mainpage" id="mainpage" class="type-interior"
+        data-theme="a">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="&nbsp;"
+            data-theme="a" name="mobileheader" id="mainpage_mobileheader" class="mainpage_mobileheader">
+                <h1 dsid="mobileheader">
+                    This is Life
+                </h1>
+                <!-- mobilebutton_13 --><!--
+                --><a data-role="button" name="mobilebutton_13" dsid="mobilebutton_13" class="mainpage_mobilebutton_13 ui-btn-left"
+                id="mainpage_mobilebutton_13" data-corners="false" data-icon="bars" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="a"
+                tabindex="2">
+                Menu
+                </a><!--
+                --><!-- mobilebutton_14 --><!--
+                --><a data-role="button" name="mobilebutton_14" dsid="mobilebutton_14" class="mainpage_mobilebutton_14 ui-btn-right"
+                id="mainpage_mobilebutton_14" data-corners="false" data-icon="grid" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="a"
+                tabindex="3">
+                Mag
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="mainpage_mobilecontainer" name="mobilecontainer" class="mainpage_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="a">
+                <link href="mainpage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="mainpage.js">
+                </script>
+                <!-- html_10 -->
+                <div data-role="appery_html" name="html_10" dsid="html_10" id="mainpage_html_10"
+                class="mainpage_html_10">
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="mainpage_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="mainpage_mobilefooter" data-theme="a">
+            </div>
+            <!-- panel_2 -->
+            <div data-role="panel" tabindex="-1" data-position="left" data-display="overlay"
+            id="mainpage_panel_2" class="mainpage_panel_2" name="panel_2" dsid="panel_2" data-theme="a">
+                <!-- mobilelabel_11 -->
+                <div name="mobilelabel_11" id="mainpage_mobilelabel_11" dsid="mobilelabel_11" data-role="appery_label"
+                class="mainpage_mobilelabel_11">
+                    This is Life Magazine
+                </div>
+                <!-- mobilelabel_12 -->
+                <div name="mobilelabel_12" id="mainpage_mobilelabel_12" dsid="mobilelabel_12" data-role="appery_label"
+                class="mainpage_mobilelabel_12">
+                </div>
+                <!-- mobilegroupedbuttons_3 -->
+                <div data-role="controlgroup" name="mobilegroupedbuttons_3" id="mainpage_mobilegroupedbuttons_3"
+                dsid="mobilegroupedbuttons_3" class="mainpage_mobilegroupedbuttons_3">
+                    <!-- mobilebutton_4 --><!--
+                    --><a data-role="button" name="mobilebutton_4" dsid="mobilebutton_4" class="mainpage_mobilebutton_4"
+                    id="mainpage_mobilebutton_4" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    Advertise
+                    </a><!--
+                    --><!-- mobilebutton_5 --><!--
+                    --><a data-role="button" name="mobilebutton_5" dsid="mobilebutton_5" class="mainpage_mobilebutton_5"
+                    id="mainpage_mobilebutton_5" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    Privacy
+                    </a><!--
+                    --><!-- mobilebutton_6 --><!--
+                    --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="mainpage_mobilebutton_6"
+                    id="mainpage_mobilebutton_6" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    Feedback
+                    </a><!--
+                    --><!-- mobilebutton_7 --><!--
+                    --><a data-role="button" name="mobilebutton_7" dsid="mobilebutton_7" class="mainpage_mobilebutton_7"
+                    id="mainpage_mobilebutton_7" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    Contact
+                    </a><!--
+                    --><!-- mobilebutton_8 --><!--
+                    --><a data-role="button" name="mobilebutton_8" dsid="mobilebutton_8" class="mainpage_mobilebutton_8"
+                    id="mainpage_mobilebutton_8" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    About us
+                    </a><!--
+                    --><!-- mobilebutton_9 --><!--
+                    --><a data-role="button" name="mobilebutton_9" dsid="mobilebutton_9" class="mainpage_mobilebutton_9"
+                    id="mainpage_mobilebutton_9" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                    x-apple-data-detectors="false" data-theme="a" tabindex="1" reRender='mobilegroupedbuttons_3'>
+                    F.A.Q
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

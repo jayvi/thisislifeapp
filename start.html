@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            start
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/gelato/gelato.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS2.css" />
+        <link type="text/css" rel="stylesheet" href="files/views/assets/css/CSS1.css" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/isjs.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/device.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="start" id="start" class="type-interior"
+        data-theme="a">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="&nbsp;"
+            data-theme="a" name="mobileheader" id="start_mobileheader" class="start_mobileheader">
+                <h1 dsid="mobileheader">
+                    This is Life
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="start_mobilecontainer" name="mobilecontainer" class="start_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="a">
+                <link href="start.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="start.js">
+                </script>
+                <!-- mobilecollapsibleset_89 -->
+                <div data-role="collapsible-set" data-mini="false" data-theme="a" data-content-theme=a
+                data-inset='false' data-collapsed-icon='carat-d' data-expanded-icon='carat-u' name="mobilecollapsibleset_89"
+                id="start_mobilecollapsibleset_89" dsid="mobilecollapsibleset_89" class="start_mobilecollapsibleset_89">
+                    <!-- mobilecollapsblock_99 -->
+                    <div data-role="collapsible" id="start_mobilecollapsblock_99" name="mobilecollapsblock_99"
+                    dsid="mobilecollapsblock_99" data-collapsed="true" data-theme="a" data-content-theme="a"
+                    data-iconpos='right' class="start_mobilecollapsblock_99" reRender='mobilecollapsibleset_89'>
+                        <h3 id="start_Login" name="Login" dsid="Login">
+                            Login
+                        </h3>
+                        <!-- loginUsername -->
+                        <div data-role="fieldcontain" class="start_loginUsername ">
+                            <input type="text" name="loginUsername" dsid="loginUsername" value="" placeholder="Username"
+                            id="start_loginUsername" tabindex="26" multiple data-theme="a" data-mini="true" class="start_loginUsername"
+                            />
+                        </div>
+                        <!-- loginPassword -->
+                        <div data-role="fieldcontain" class="start_loginPassword ">
+                            <input type="text" name="loginPassword" dsid="loginPassword" value="" placeholder="Password"
+                            id="start_loginPassword" tabindex="27" multiple data-theme="a" data-mini="true" class="start_loginPassword"
+                            />
+                        </div>
+                        <!-- loginButton --><!--
+                        --><a data-role="button" name="loginButton" dsid="loginButton" class="start_loginButton"
+                        id="start_loginButton" data-corners="true" data-icon="user" data-iconpos="top" x-apple-data-detectors="false"
+                        data-mini="true" data-theme="a" tabindex="28">
+                        Let me in
+                        </a>
+                    </div>
+                    <!-- mobilecollapsblock_105 -->
+                    <div data-role="collapsible" id="start_mobilecollapsblock_105" name="mobilecollapsblock_105"
+                    dsid="mobilecollapsblock_105" data-collapsed="false" data-theme="a" data-content-theme="a"
+                    data-iconpos='right' class="start_mobilecollapsblock_105" reRender='mobilecollapsibleset_89'>
+                        <h3 id="start_Register" name="Register" dsid="Register">
+                            Register
+                        </h3>
+                        <!-- registerUsername -->
+                        <div data-role="fieldcontain" class="start_registerUsername ">
+                            <input type="text" name="registerUsername" dsid="registerUsername" value="" placeholder="Username"
+                            id="start_registerUsername" tabindex="30" multiple data-theme="a" data-mini="true"
+                            class="start_registerUsername" />
+                        </div>
+                        <!-- registerPassword -->
+                        <div data-role="fieldcontain" class="start_registerPassword ">
+                            <input type="password" name="registerPassword" dsid="registerPassword" value=""
+                            placeholder="Password" id="start_registerPassword" tabindex="31" multiple data-theme="a"
+                            data-mini="true" class="start_registerPassword" />
+                        </div>
+                        <!-- registerPasswordC -->
+                        <div data-role="fieldcontain" class="start_registerPasswordC ">
+                            <input type="password" name="registerPasswordC" dsid="registerPasswordC" value=""
+                            placeholder="Confirm Password" id="start_registerPasswordC" tabindex="32" multiple
+                            data-theme="a" data-mini="true" class="start_registerPasswordC" />
+                        </div>
+                        <!-- registerEmail -->
+                        <div data-role="fieldcontain" class="start_registerEmail ">
+                            <input type="text" name="registerEmail" dsid="registerEmail" value="" placeholder="Email"
+                            id="start_registerEmail" tabindex="33" multiple data-theme="a" data-mini="true" class="start_registerEmail"
+                            />
+                        </div>
+                        <!-- registerPhone -->
+                        <div data-role="fieldcontain" class="start_registerPhone ">
+                            <input type="text" name="registerPhone" dsid="registerPhone" value="" placeholder="Phone number"
+                            id="start_registerPhone" tabindex="37" multiple data-theme="a" data-mini="true" class="start_registerPhone"
+                            />
+                        </div>
+                        <!-- registerFirstname -->
+                        <div data-role="fieldcontain" class="start_registerFirstname ">
+                            <input type="text" name="registerFirstname" dsid="registerFirstname" value="" placeholder="First Name"
+                            id="start_registerFirstname" tabindex="34" multiple data-theme="a" data-mini="true"
+                            class="start_registerFirstname" />
+                        </div>
+                        <!-- registerLastname -->
+                        <div data-role="fieldcontain" class="start_registerLastname ">
+                            <input type="text" name="registerLastname" dsid="registerLastname" value="" placeholder="Last Name"
+                            id="start_registerLastname" tabindex="35" multiple data-theme="a" data-mini="true"
+                            class="start_registerLastname" />
+                        </div>
+                        <!-- registerAge -->
+                        <div data-role="fieldcontain" class="start_registerAge ">
+                            <input type="number" name="registerAge" dsid="registerAge" value="" placeholder="Age"
+                            id="start_registerAge" tabindex="36" multiple data-theme="a" data-mini="true" class="start_registerAge"
+                            />
+                        </div>
+                        <!-- registerSex -->
+                        <div data-role="fieldcontain" class="start_registerSex" id="start_registerSex" dsid="registerSex">
+                            <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" data-theme="a">
+                                <!-- registerSexmale -->
+                                <span dsid="registerSexmale" class="start_registerSexmale" name="registerSexmale">
+                                    <input type="radio" name="registerSex" id="start_registerSexmale" style='display:none'
+                                    tabindex="38" value="male" />
+                                    <label id="start_registerSexmale_label" for="start_registerSexmale">
+                                        Male
+                                    </label>
+                                </span>
+                                <!-- registerSexfemale -->
+                                <span dsid="registerSexfemale" class="start_registerSexfemale" name="registerSexfemale">
+                                    <input type="radio" name="registerSex" id="start_registerSexfemale" style='display:none'
+                                    value="female" />
+                                    <label id="start_registerSexfemale_label" for="start_registerSexfemale">
+                                        Female
+                                    </label>
+                                </span>
+                            </fieldset>
+                        </div>
+                        <!-- registerButton --><!--
+                        --><a data-role="button" name="registerButton" dsid="registerButton" class="start_registerButton"
+                        id="start_registerButton" data-corners="true" data-icon="user" data-iconpos="top"
+                        x-apple-data-detectors="false" data-mini="true" data-theme="a" tabindex="29">
+                        Register
+                        </a>
+                    </div>
+                    <!-- mobilecollapsblock_127 -->
+                    <div data-role="collapsible" id="start_mobilecollapsblock_127" name="mobilecollapsblock_127"
+                    dsid="mobilecollapsblock_127" data-collapsed="true" data-theme="a" data-content-theme="a"
+                    data-iconpos='right' class="start_mobilecollapsblock_127" reRender='mobilecollapsibleset_89'>
+                        <h3 id="start_forgotPassword" name="forgotPassword" dsid="forgotPassword">
+                            Forgot Password
+                        </h3>
+                        <!-- mobilelabel_132 -->
+                        <div name="mobilelabel_132" id="start_mobilelabel_132" dsid="mobilelabel_132" data-role="appery_label"
+                        class="start_mobilelabel_132">
+                            Enter your email address to get a security code
+                        </div>
+                        <!-- passwordEmail -->
+                        <div data-role="fieldcontain" class="start_passwordEmail ">
+                            <input type="text" name="passwordEmail" dsid="passwordEmail" value="" placeholder="Email"
+                            id="start_passwordEmail" tabindex="40" multiple data-theme="a" data-mini="true" class="start_passwordEmail"
+                            />
+                        </div>
+                        <!-- mobilebutton_133 --><!--
+                        --><a data-role="button" name="mobilebutton_133" dsid="mobilebutton_133" class="start_mobilebutton_133"
+                        id="start_mobilebutton_133" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                        x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="42">
+                        Send an email
+                        </a>
+                    </div>
+                </div>
+                <!-- recovery_container -->
+                <div data-role="collapsible-set" data-theme="a" data-content-theme=a data-inset='false'
+                data-collapsed-icon='carat-d' data-expanded-icon='carat-u' name="recovery_container"
+                id="start_recovery_container" dsid="recovery_container" class="start_recovery_container">
+                    <!-- recovery_holder -->
+                    <div data-role="collapsible" id="start_recovery_holder" name="recovery_holder" dsid="recovery_holder"
+                    data-collapsed="false" data-theme="a" data-content-theme="a" data-iconpos='right'
+                    class="start_recovery_holder" reRender='recovery_container'>
+                        <h3 id="start_mobilecollapsblockheader_155" name="mobilecollapsblockheader_155"
+                        dsid="mobilecollapsblockheader_155">
+                            Recovery
+                        </h3>
+                        <!-- recovery_secret_code -->
+                        <div data-role="fieldcontain" class="start_recovery_secret_code ">
+                            <input type="text" name="recovery_secret_code" dsid="recovery_secret_code" value=""
+                            placeholder="Secret Code" id="start_recovery_secret_code" tabindex="49" multiple
+                            data-theme="a" data-mini="true" class="start_recovery_secret_code" />
+                        </div>
+                        <!-- recovery_new_password -->
+                        <div data-role="fieldcontain" class="start_recovery_new_password ">
+                            <input type="text" name="recovery_new_password" dsid="recovery_new_password" value=""
+                            placeholder="New Password" id="start_recovery_new_password" tabindex="50" multiple
+                            data-theme="a" data-mini="true" class="start_recovery_new_password" />
+                        </div>
+                        <!-- recoverNow --><!--
+                        --><a data-role="button" name="recoverNow" dsid="recoverNow" class="start_recoverNow"
+                        id="start_recoverNow" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                        x-apple-data-detectors="false" data-mini="true" data-theme="a" tabindex="51">
+                        Update Password
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

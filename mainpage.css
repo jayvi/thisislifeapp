@@ -1,0 +1,106 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_13 */
+#mainpage_mobilebutton_13 {
+
+}
+.ui-btn.mainpage_mobilebutton_13 {
+
+}
+/* mobilebutton_14 */
+#mainpage_mobilebutton_14 {
+
+}
+.ui-btn.mainpage_mobilebutton_14 {
+
+}
+/* mobilecontainer */
+.ui-content.mainpage_mobilecontainer {
+	padding: 0px 0px 0px 0px;
+}
+/* html_10 */
+.mainpage_html_10 {
+	margin: 0px 0px 0px 0px;
+	font-weight: normal;
+	width: 100%; height: 100%;
+}
+div.mainpage_html_10 {
+	overflow: auto;
+}
+/* mobilefooter */
+.mainpage_mobilefooter {
+	min-height:38px;
+}
+/* panel_2 */
+.mainpage_panel_2 .ui-panel-inner {
+	padding: 0px 0px 0px 0px;
+}
+.mainpage_panel_2:focus {
+	outline: 0;
+}
+/* mobilelabel_11 */
+.mainpage_mobilelabel_11 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Gulim; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_12 */
+.mainpage_mobilelabel_12 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Gulim; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegroupedbuttons_3 */
+.ui-controlgroup.mainpage_mobilegroupedbuttons_3 {
+	margin: 4px 0px 4px 0px;
+}
+.ui-controlgroup.mainpage_mobilegroupedbuttons_3 .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* mobilebutton_4 */
+#mainpage_mobilebutton_4 {
+
+}
+.ui-btn.mainpage_mobilebutton_4 {
+
+}
+/* mobilebutton_5 */
+#mainpage_mobilebutton_5 {
+
+}
+.ui-btn.mainpage_mobilebutton_5 {
+
+}
+/* mobilebutton_6 */
+#mainpage_mobilebutton_6 {
+
+}
+.ui-btn.mainpage_mobilebutton_6 {
+
+}
+/* mobilebutton_7 */
+#mainpage_mobilebutton_7 {
+
+}
+.ui-btn.mainpage_mobilebutton_7 {
+
+}
+/* mobilebutton_8 */
+#mainpage_mobilebutton_8 {
+
+}
+.ui-btn.mainpage_mobilebutton_8 {
+
+}
+/* mobilebutton_9 */
+#mainpage_mobilebutton_9 {
+
+}
+.ui-btn.mainpage_mobilebutton_9 {
+
+}
